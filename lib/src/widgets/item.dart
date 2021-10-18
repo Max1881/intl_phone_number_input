@@ -47,10 +47,17 @@ class Item extends StatelessWidget {
             textDirection: TextDirection.ltr,
             style: textStyle,
           ),
-          Text(
-            "$countryName",
-            textDirection: TextDirection.ltr,
-            style: textStyle,
+          SizedBox(
+            width: 12.0,
+          ),
+          SizedBox(
+            width: 50.0,
+            child: Text(
+              "$countryName",
+              textDirection: TextDirection.ltr,
+              style: textStyle,
+              overflow: TextOverflow.ellipsis,
+            ),
           )
         ],
       ),
