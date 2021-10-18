@@ -50,13 +50,10 @@ class Item extends StatelessWidget {
           SizedBox(
             width: 12.0,
           ),
-          SizedBox(
-            width: 50.0,
-            child: Text(
-              "$countryName",
-              textDirection: TextDirection.ltr,
-              style: textStyle,
-            ),
+          Text(
+            "$countryName",
+            textDirection: TextDirection.ltr,
+            style: textStyle,
           )
         ],
       ),
