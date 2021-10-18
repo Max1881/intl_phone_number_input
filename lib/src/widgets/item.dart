@@ -46,6 +46,11 @@ class Item extends StatelessWidget {
             textDirection: TextDirection.ltr,
             style: textStyle,
           ),
+          Text(
+            "${country!.name}",
+            textDirection: TextDirection.ltr,
+            style: textStyle,
+          )
         ],
       ),
     );
