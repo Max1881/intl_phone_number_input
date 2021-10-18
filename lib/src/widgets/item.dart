@@ -50,7 +50,6 @@ class Item extends StatelessWidget {
           Text(
             "$countryName",
             textDirection: TextDirection.ltr,
-            style: textStyle,
           )
         ],
       ),
