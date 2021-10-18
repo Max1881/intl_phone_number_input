@@ -26,6 +26,7 @@ class Item extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String dialCode = (country?.dialCode ?? '');
+    String countryName = (country?.name ?? '');
     if (trailingSpace) {
       dialCode = dialCode.padRight(5, "   ");
     }
@@ -47,7 +48,7 @@ class Item extends StatelessWidget {
             style: textStyle,
           ),
           Text(
-            "${country!.name}",
+            "$countryName",
             textDirection: TextDirection.ltr,
             style: textStyle,
           )
