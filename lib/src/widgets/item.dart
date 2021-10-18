@@ -56,7 +56,7 @@ class Item extends StatelessWidget {
               "$countryName",
               textDirection: TextDirection.ltr,
               style: textStyle,
-              overflow: TextOverflow.ellipsis,
+            
             ),
           )
         ],
